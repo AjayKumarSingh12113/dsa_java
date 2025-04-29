@@ -14,7 +14,7 @@ public class Permutation {
     public static void findpermutation(String str, String ans) {
         // base 
         if (str.length()==0) {
-            //System.out.println(ans);
+            System.out.println(ans);
             return;
         }
         // recussive
@@ -27,7 +27,7 @@ public class Permutation {
     }
     public static void main(String[] args) {
         String str = "abc";
-        //findpermutation(str, "");
-        findone("eidbaooo", "ab");
+        findpermutation(str, new String(""));
+        //findone("eidbaooo", "ab");
     }
 }
