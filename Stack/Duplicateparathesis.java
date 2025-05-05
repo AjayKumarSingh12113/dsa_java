@@ -14,7 +14,7 @@ public class Duplicateparathesis {
                     st.pop();
                     count++;
                 }
-                if (count < 0) {
+                if (count <= 0) {
                     return true;
                 } else {
                     st.pop();
