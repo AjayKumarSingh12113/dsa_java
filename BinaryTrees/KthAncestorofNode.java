@@ -23,12 +23,13 @@ public class KthAncestorofNode {
         if (leftdist == -1 && rightdist == -1) {
             return -1;
         }
-        int maxdis = Math.max(leftdist, rightdist);//valid only one val
-        if (maxdis+1 == k) {
+        int max = Math.max(leftdist, rightdist);
+        if (max+1 == k) {
             System.out.println(root.val);
         }
-        return maxdis+1;
+        return max+1;
     }
+    
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(9);
@@ -36,7 +37,8 @@ public class KthAncestorofNode {
         root.left.left = new TreeNode(8);
         root.left.right = new TreeNode(3);
         root.right.right= new TreeNode(2);
-        int n1 = 8 , k = 1;
+        int n1 = 8 , k = 2;
         kthAncestor(root, n1, k);
+        
     }
 }

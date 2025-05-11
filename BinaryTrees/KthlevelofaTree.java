@@ -22,6 +22,18 @@ public class KthlevelofaTree {
         klevel(root.left, level+1, k);
         klevel(root.right, level+1, k);
     }
+
+
+    public static void kthlevel(Node root, int level,int k){
+        if (root == null) {
+            return;
+        }
+        if (level == k ) {
+            System.out.println(root.data);
+        }
+        kthlevel(root.left, level+1, k);
+        kthlevel(root.right,level+1,k);
+    }
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(3);

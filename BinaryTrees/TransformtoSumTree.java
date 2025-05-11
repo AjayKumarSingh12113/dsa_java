@@ -11,6 +11,18 @@ public class TransformtoSumTree {
             this.right = null;
         }
     }
+    public static int transform(TreeNode root){
+        if (root == null) {
+            return 0 ;
+        }
+        int leftsum = transform(root.left);
+        int rightsum = transform(root.right);
+        int data = root.val;
+        int newleft = root.left == null ? 0:root.left.val;
+        int newright = root.right == null ? 0: root.right.val;
+        root.val = leftsum + newleft + rightsum + newright;
+        return data;
+    }
     public static int sumtree(TreeNode root){
         if (root == null) {
             return 0;
@@ -47,7 +59,9 @@ public class TransformtoSumTree {
         root.left.right = new TreeNode(3);
         root.right.right= new TreeNode(2);
         System.out.println(sumtree(root.left.left));
-        sumTrees(root);
+        //sumTrees(root);
+        transform(root);
         preorder(root);
+        
     }
 }
