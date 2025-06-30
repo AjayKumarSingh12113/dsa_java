@@ -9,6 +9,7 @@ public class Construct_bst_pre_inorder {
             this.val = d;
             this.left = null;
             this.right = null;
+            
         }
     }
     static int idx =0;
