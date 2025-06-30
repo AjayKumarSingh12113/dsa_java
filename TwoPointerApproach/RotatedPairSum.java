@@ -1,3 +1,4 @@
+package BitManupulation.TwoPointerApproach;
 public class RotatedPairSum {
     public static boolean fundPair(int arr[], int target) {
         int breakingPoint = -1;

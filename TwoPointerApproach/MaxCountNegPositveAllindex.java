@@ -1,3 +1,4 @@
+package BitManupulation.TwoPointerApproach;
 public class MaxCountNegPositveAllindex {
     // Input:nums=[-2,-1,-1,1,2,3]Output:3 Explanation:
     // There are 3

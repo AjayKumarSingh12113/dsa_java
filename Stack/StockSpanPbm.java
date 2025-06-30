@@ -1,4 +1,4 @@
-package Stack;
+package BitManupulation.Stack;
 import java.util.*;
 public class StockSpanPbm {
     public static void stocks(int stock[], int span[]) {

@@ -1,4 +1,4 @@
-package Stack;
+package BitManupulation.Stack;
 
 public class Stackinll {
     static class Node {

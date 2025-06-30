@@ -1,4 +1,4 @@
-package Queues;
+package BitManupulation.Queues;
 
 public class Imlementationofcirculararr {
     static class Queue {

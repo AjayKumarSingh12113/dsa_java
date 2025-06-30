@@ -1,4 +1,4 @@
-package Heaps;
+package BitManupulation.Heaps;
 
 import java.util.PriorityQueue;
 

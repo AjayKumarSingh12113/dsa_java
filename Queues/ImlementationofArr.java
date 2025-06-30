@@ -1,4 +1,4 @@
-package Queues;
+package BitManupulation.Queues;
 
 public class ImlementationofArr {
     static class Queue {

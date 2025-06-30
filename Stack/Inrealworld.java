@@ -1,4 +1,4 @@
-package Stack;
+package BitManupulation.Stack;
 import java.util.*;
 
 public class Inrealworld {

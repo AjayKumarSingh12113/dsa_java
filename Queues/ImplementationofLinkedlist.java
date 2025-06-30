@@ -1,4 +1,4 @@
-package Queues;
+package BitManupulation.Queues;
 
 public class ImplementationofLinkedlist {
     static class Node {

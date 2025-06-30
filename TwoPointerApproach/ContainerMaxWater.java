@@ -1,3 +1,4 @@
+package BitManupulation.TwoPointerApproach;
 public class ContainerMaxWater {
      public static int maxArea(int[] height) {
         // 2pointer approach 
