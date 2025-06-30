@@ -25,6 +25,8 @@ public class Permutation {
             findpermutation(mtstring, ans+curr);
         }
     }
+
+     
     public static void main(String[] args) {
         String str = "abc";
         findpermutation(str, new String(""));
