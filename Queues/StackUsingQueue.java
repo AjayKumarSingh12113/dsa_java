@@ -1,4 +1,4 @@
-package BitManupulation.Queues;
+package Queues;
 
 import java.util.LinkedList;
 import java.util.Queue;
