@@ -1,4 +1,4 @@
-package BitManupulation.Queues.Deque;
+package Queues.Deque;
 
 import java.util.Deque;
 import java.util.LinkedList;
