@@ -1,4 +1,4 @@
-package BitManupulation.Heaps;
+package Heaps;
 
 public class Sort_Heap {
     public static void heapify(int nums[], int i, int size){
