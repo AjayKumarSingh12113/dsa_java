@@ -1,4 +1,4 @@
-package BitManupulation.Heaps;
+package Heaps;
 
 import java.util.ArrayList;
 
